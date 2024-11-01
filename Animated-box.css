@@ -1,0 +1,15 @@
+.Box{
+    font-size: 40px;
+    padding: 30px 50px;
+    background-color: lightblue;
+    display: inline-block;
+    margin: 150px 150px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px lightslategrey;
+    font-family: cursive;
+}
+.Box:hover{
+    cursor: pointer;
+    transition: 2s ease;
+    transform:rotate(360deg);
+}
